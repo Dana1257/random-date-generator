@@ -365,4 +365,12 @@ let dates = [
     "December 29, 2020",
     "December 30, 2020",
     "December 31, 2020"
-    ]
+]
+
+function randomDate(){
+    let randomDate = Math.floor(Math.random() * (dates.length));
+    
+document.getElementById("dateDisplay").innerHTML = dates[randomDate]
+}
+    
+    
